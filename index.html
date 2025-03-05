@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Developper Informatique">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio développeur web</title>
+    <link rel="stylesheet" href="styl.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Lien CDN pour Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+  <header class="header">
+      <a href="#" class="logo">My Portfolio</a>
+
+      <nav class="navbar">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projets</a>
+          <a href="#vision" class="nav-link">Ma vision</a>
+          <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Burger Menu Button -->
+      <div class="burger" id="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </header>
+  <script type="text/javascript">
+  // Sélectionner les éléments du DOM
+const burgerMenu = document.getElementById('burger-menu');
+const navbar = document.querySelector('.navbar');
+
+// Ajouter un écouteur d'événement au clic sur le menu burger
+burgerMenu.addEventListener('click', () => {
+  navbar.classList.toggle('open'); // Ajoute/retire la classe 'open' pour afficher/masquer le menu
+});
+
+  </script>
+
+
+
+
+<section id="home" class="home">
+    <div class="home-content">
+        <h1>Salut, Moi ç'est Steeven HOUNKPE-SAGBO</h1>
+        <h3>Developper web</h3>
+        <p>Bonjour et bienvenue ! Je m'appelle Steeven, et ce portfolio rassemble mes projets et compétences en
+        développement web, design. N'hésitez pas à explorer mon travail et à me contacter pour en savoir plus !</p>
+        <div class="btn-box">
+            <a href="#contact">Contactez Moi</a>
+            <a href="#about">Parlons</a>
+
+        </div>
+    </div>
+<!--
+    <div class="home-sci">
+        <a href="https://www.facebook.com/?locale=fr_FR"><i class='bx bxl-facebook'></i></a>
+        <a href="https://x.com/?lang=fr"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://fr.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+    </div>
+  -->
+
+    <span class="home-imghover"></span>
+ </section>
+<h1 style="color: black; text-align: center; padding: 1%">A propos de Moi</h1>
+
+
+
+
+
+
+<!-- Ova creer une section pour le about-->
+<section id="about" class="section">
+    <div class="about-container">
+
+        <!-- Section "Plus sur moi" -->
+        <div class="about-me">
+            <b style="color: white">Plus sur moi</b>
+            <p class="presentation">
+                Je m'appelle <b>Steeven</b>, et je suis développeur web spécialisé en conception de sites web dynamiques et modernes.
+                Passionné par les nouvelles technologies, j'ai un parcours dans la programmation et quelques années d'expérience dans
+                le développement front-end et backend.
+                Mes compétences couvrent HTML, CSS, JavaScript ainsi qu'une bonne maîtrise de l'UX/UI design, ce qui me
+                permet de créer des sites à la fois performants et esthétiques. Je suis convaincu que chaque projet est une opportunité
+                d'innover et d'offrir une expérience utilisateur unique.
+            </p>
+        </div>
+
+        <!-- Section "Mes compétences" -->
+        <div class="my-skills">
+            <b style="color: white;">Mes compétences</b>
+            <ul>
+                <li><i class="fas fa-code"></i> Développeur web-front (HTML, CSS, JavaScript)</li>
+                <li><i class="fas fa-database"></i> Développeur web-back (PHP & MySQL, SQL)</li>
+                <li><i class="fa-brands fa-github"></i> Système de versionning: Git</li>
+                <li><i class="fas fa-mobile-alt"></i> Création d'interfaces dynamiques et adaptatives</li>
+                <li><i class="fas fa-paint-brush"></i> Design graphique : Photoshop, Illustrator, Adobe XD, CorelDRAW</li>
+                <li><i class="fas fa-users"></i> Travail d'équipe et communication</li>
+                <li><i class="fas fa-language"></i> Bilingue (français et anglais)</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+
+<h1 style="color: black; text-align: center; padding: 1%">Mes projets & Experiences</h1>
+
+ <!--Section projets et realisations-->
+ <section id="projects" class="projects-section">
+     <div class="project">
+         <h3>JJ ART</h3>
+         <a href="images/logo.jpg" target="_blank">
+             <img src="images/logo.jpg" alt="JJ ART" class="project-img" height="100%" width="100%">
+         </a>
+         <p>Co-fondateur de J J ART, entreprise créant des visuels époustouflants pour divers clients, en étroite collaboration pour répondre à leurs besoins.</p>
+     </div>
+<!--
+     <div class="project">
+         <h3>Stage à la Cantine EFE Montaigne</h3>
+         <a href="images/young-people-collaborating-office.jpg" target="_blank">
+             <img src="images/young-people-collaborating-office.jpg" alt="Stage à la Cantine EFE Montaigne" class="project-img" height="100%" width="100%">
+         </a>
+         <p>Stage de trois semaines en 2021, où j'ai assisté dans les services de la cantine : préparation et gestion des repas.</p>
+     </div>
+   -->
+
+     <div class="project">
+         <h3>Création d'un système feedback</h3>
+         <a href="images/feed.png" target="_blank">
+             <img src="images/Capture d'écran 2025-02-12 015241.png" alt="Système feedback" class="project-img" height="100%" width="100%">
+         </a>
+         <p>Développement d'un système de feedback pour une école, permettant aux élèves et au personnel de partager leurs avis pour améliorer l'expérience éducative. <br>
+          &#9733;Conception de l'interface utilisateur <br>
+          &#9733;Système de soumission avec email <br>
+          &#9733;Analyse des retours <br>
+          &#9733;Fonctionnalités dynamiques <br>
+          &#9733;>Gestion des notifications <br>
+          </p>
+     </div>
+
+     <div class="project">
+         <h3>Création d'affiches</h3>
+         <a href="images/Etincelle.png" target="_blank">
+             <img src="images/Etincelle.png" alt="Création d'affiches" class="project-img" height="100%" width="100%">
+         </a>
+         <p>Conception d'une affiche visuelle pour promouvoir un single, en mettant en avant l'artiste et le style musical à travers un design accrocheur et adapté à l'univers musical.</p>
+         &#9733; Sélection des éléments graphiques et typographiques <br>
+            &#9733; Création d'une mise en page percutante <br>
+            &#9733; Adaptation aux formats d'impression et digitaux <br>
+            &#9733; Respect des codes visuels du genre musical <br>
+            &#9733; Test et validation avec le client <br>
+     </div>
+
+     <div class="project">
+         <h3>Création de magazine</h3>
+         <a href="images/Asset 2hdpi.png" target="_blank">
+             <img src="images/Asset 2hdpi.png" alt="Création de magazine" class="project-img" height="100%" width="100%">
+         </a>
+         <p>Conception d'un magazine explorant les mystères et les traditions autour des jumeaux en Afrique, avec un design captivant et une mise en page soignée pour offrir une expérience de lecture immersive et informative.</p>
+
+     </div>
+
+     <div class="project">
+         <h3>Confessions de logos</h3>
+         <a href="images/bag tote mockup.png" target="_blank">
+             <img src="images/bag tote mockup.png" alt="Confessions de logos" class="project-img" height="100%" width="100%">
+         </a>
+         <p>Conception d'un logo spécialement conçu pour être imprimé sur des tote bags, alliant simplicité et impact visuel. Ce projet met en avant le design minimaliste et l'élégance tout en restant fonctionnel pour un produit mode et pratique.</p>
+         &#9733; Analyse des besoins et de l'identité visuelle <br>
+            &#9733; Création d'un design simple et efficace <br>
+            &#9733; Choix des couleurs et des formes adaptées <br>
+            &#9733; Tests sur différents supports textiles <br>
+            &#9733; Préparation des fichiers pour l'impression <br>
+     </div>
+     <div class="project">
+    <h3>Création d'un site web de musique</h3>
+    <a href="images/site.png" target="_blank">
+        <img src="images/site.png" alt="Site web de musique" class="project-img" height="100%" width="100%">
+    </a>
+    <p>
+        Développement d'un site web statique de musique dans le cadre d'un projet scolaire, avec une interface moderne et interactive. <br>
+        &#9733; Structure en HTML et mise en page en CSS <br>
+        &#9733; Animation et interactivité avec JavaScript <br>
+        &#9733; Design responsive pour différents écrans <br>
+        &#9733; Navigation fluide entre les différentes sections <br>
+    </p>
+</div>
+
+ </section>
+
+
+ <!-- Section Vision et Objectifs -->
+ <!-- Section Vision -->
+<div class="container">
+    <section id="vision">
+        <h2>Ma Vision</h2>
+        <p class="visio">
+            Je suis convaincu que la technologie et le design peuvent véritablement transformer le quotidien.
+            Mon objectif est de développer des solutions numériques qui anticipent les besoins de demain.
+            À travers une approche centrée sur l'utilisateur, je m'efforce de concevoir des interfaces intuitives,
+            esthétiques et performantes pour offrir une expérience enrichissante et accessible à tous.
+        </p>
+    </section>
+
+    <section id="objectives">
+        <h2>Mes Objectifs</h2>
+        <ul class="objectifs">
+            <li> Concevoir des solutions numériques innovantes et adaptées aux besoins des utilisateurs.</li>
+            <li> Améliorer continuellement mes compétences en développement web et design.</li>
+            <li> Développer des interfaces esthétiques, intuitives et performantes.</li>
+            <li> Trouver un stage de deux mois (mai-juin) pour approfondir mes compétences en développement web.</li>
+            <li> Collaborer avec des professionnels pour gagner en expérience et en expertise.</li>
+            <li> Apporter une valeur ajoutée aux projets en combinant design et technologie.</li>
+        </ul>
+    </section>
+</div>
+
+
+<!--Contactz moi-->
+
+<!-- Section Contact -->
+<!-- Section Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Vous souhaitez échanger ou collaborer ? N'hésitez pas à me contacter !</p>
+
+    <div class="contact-content">
+        <!-- Informations de contact -->
+        <div class="contact-info">
+            <p><strong>📞 Téléphone :</strong> +33 6 20 05 77 67</p>
+            <p><strong>📧 Email :</strong> <a href="mailto:hounkpesagbojeff@gmail.com">hounkpesagbojeff@gmail.com</a></p>
+ 
+            <!-- Icônes des réseaux sociaux -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAEFhXxQB1to-_q2MXw_3JhFS5X9VX3IQxZ0&keywords=hounkpe-sagbo%20elvis%20steeven%20jeff&origin=RICH_QUERY_SUGGESTION&position=0&searchId=525aa498-39c0-479f-bc46-57fe3f284cb2&sid=Ck2&spellCorrectionEnabled=false" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.github.com/ton-compte" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+
+                <!-- Lien pour télécharger le CV -->
+                <div class="download-cv">
+                    <p><a href="mon cv/CV Steeven HOUNKPE-SAGBO.pdf" target="_blank">Télécharger mon CV</a></p>
+                </div>
+
+               
+            </div>
+        </div>
+
+        <!-- Formulaire de contact -->
+        <div class="contact-form">
+            <h3>Envoyez-moi un message</h3>
+            <form>
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+
+                <button onclick="myFunction()" name="envoyer" type="submit">Envoyer</button>
+                <script>
+function myFunction(){
+    alert("Message envoyé avec succès! Pour tout service veuillez m'écrire sur mon mail.");
+}
+                </script>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Steeven - Tous droits réservés</p>
+    <div class="footer-links">
+        <a href="#home">Home</a> |
+        <a href="#about">À propos</a> |
+        <a href="#projects">Projets</a> |
+        <a href="#contact">Contact</a>
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>
