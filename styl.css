@@ -116,7 +116,7 @@ body{
 
 .home{
  height: 90vh;
- background: url(images/home.gif) no-repeat;
+ background: url(images/home.jpg) no-repeat;
  background-size: cover;
  background-position: center;
  display: flex;
@@ -801,13 +801,11 @@ h2 {
 
 /* Section téléchargement du CV */
 .download-cv {
-    background-color: #fff;
+    background-color: none;
     padding: 20px;
     margin-bottom: 40px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-}
+      text-align: center;
+ }
 
 /* Lien de téléchargement */
 .download-cv a {
@@ -833,6 +831,7 @@ h2 {
 /* Texte de lien */
 .download-cv p {
     margin: 0;
+    margin-top: 5%;
 }
 
 /* Footer */
